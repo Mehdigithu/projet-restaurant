@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+#partie1 {
+    /* Définissez l'image que vous souhaitez utiliser comme fond */
+    background-image: url("https://lafrodisiacrestaurant.fr/wp-content/uploads/2022/02/PHOTO-4-scaled.jpg");
+
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    
+ }
+
+body {
+    /* Définissez l'image que vous souhaitez utiliser comme fond */
+    background-image: url("https://wallpapercave.com/wp/wp6879679.jpg");
+
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    
+ }   
+  { background-position: center;
+
+
+}
