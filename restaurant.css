@@ -1,15 +1,28 @@
 h1 {
     text-align: center;
 }
+h1{
+    color: beige;
+    font-family:cursive
+
+}
+#titre{
+    
+    font-size: 60px;
+text-align: center;
+
+}
+
 #partie1 {
-    /* Définissez l'image que vous souhaitez utiliser comme fond */
+   
+    height: 500px;
     background-image: url("https://lafrodisiacrestaurant.fr/wp-content/uploads/2022/02/PHOTO-4-scaled.jpg");
 
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
-    margin:0;
-    padding:0;
+    margin: 100;;
+    padding:100;
     font-family: Arial, sans-serif;
     
  }
@@ -29,4 +42,18 @@ body {
   { background-position: center;
 
 
+}
+.text{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.textstyl{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
 }
