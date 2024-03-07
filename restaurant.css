@@ -2,16 +2,27 @@ h1 {
     text-align: center;
 }
 h1{
-    color: beige;
+    color: rgb(87, 4, 4);
     font-family:cursive
 
 }
+
 #titre{
-    
+    color: rgb(87, 4, 4);
     font-size: 60px;
 text-align: center;
 
 }
+div
+{color :rgb(87, 4, 4);}
+
+#color{ 
+    color: white;
+    order: 
+    
+    text-align: left;
+}
+
 
 #partie1 {
    
@@ -57,3 +68,4 @@ body {
     line-height: 1.6;
     text-align: center;
 }
+
