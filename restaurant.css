@@ -18,24 +18,34 @@ div
 
 #color{ 
     color: white;
-    order: 
-    
-    text-align: left;
 }
+.hnmDhc {
+    font-size: 20px;
+    position: static; 
+   text-align: left;
 
-
+}
+#taille {
+    font-size: 20px;
+    width: 200px;
+    height: 35px;
+    color:white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 5px;
+    
+   
+    
+}
 #partie1 {
    
-    height: 500px;
+    height: 200px;
     background-image: url("https://lafrodisiacrestaurant.fr/wp-content/uploads/2022/02/PHOTO-4-scaled.jpg");
-
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
-    margin: 100;;
-    padding:100;
     font-family: Arial, sans-serif;
-    
+    padding-top: 200px;
  }
 
 body {
@@ -66,6 +76,9 @@ body {
 .textstyl{
     font-size: 18px;
     line-height: 1.6;
+    text-align: center;
+}
+.maps {
     text-align: center;
 }
 
