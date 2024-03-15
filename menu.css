@@ -36,6 +36,19 @@ padding: 0;
 section ul li {
 margin-bottom: 10px;
 }
+
+#reserver{
+    width: 200px;
+    padding: 10px;
+    background-color: #E67E22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 600px;
+    background-position: center ;
+}
+
 body {
     /* Définissez l'image que vous souhaitez utiliser comme fond */
     background-image: url("https://wallpapercave.com/wp/wp6879679.jpg");
