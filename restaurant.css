@@ -80,3 +80,24 @@ body {
     text-align: center;
 }
 
+
+  
+  #facebook button{
+    background-color: #3b5998;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  }
+  #instagram button {
+    background-color: #c13584; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+  
+

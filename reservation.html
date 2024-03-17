@@ -38,16 +38,32 @@
             <label for="guests">Nombre de personnes:</label>
             <input type="number" id="guests" name="guests" min="1" placeholder="saisissez le nombre de personnes" required>
         </div>
-        <a href="restaurant.html" ><button type="button" id="reserver">Réserver</button></a>
+        <button type="button" id="reserver">Réserver</button>
         <br><br>
         <a href="restaurant.html" ><button type="button" id="reserver">page d'accueil</button></a>
     </form>
 </body>
 <script>
     let b1=document.querySelector('#reserver')
-    b1.addEventListener('click',function(){alert('reservation validé')});
+    b1.addEventListener('click',function(){
+        let element1=document.querySelector('#name')
+        let element2=document.querySelector('#email')
+        let element3=document.querySelector('#telephone')
+        let element4=document.querySelector('#date')
+        let element5=document.querySelector('#time')
+        let element6=document.querySelector('#guests')
+        if (element1.value !== '' && element2.value !== '' && element3.value !=='' && element4.value !=='' &&element5.value !=='' && element6.value !== '' ){
+            window.location.href = 'restaurant.html'
+            alert('reservation validé')
+    } else {
+        alert('Veuillez remplir tous les champs')
+        window.location.href = 'reservation.html'
+
+    }
+});
 </script>
 <script src="restaurant.js"></script>
+
 </html>
 
 
